@@ -1,0 +1,63 @@
+body {
+  font-family:'Segoe UI', Arial, sans-serif;
+  margin:0;
+}
+.header {
+  padding: 52px 22px;
+  background-color: black;
+  background-image: url('../img/ebike-header.jpg');
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+a {
+  color: purple;
+}
+.subtitle {
+  font-size: 26px;
+}
+.text, .form-container {
+  width: 49%;
+  padding: 22px;
+}
+.container {
+  display: flex;
+  padding: 22px;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  border: 1px solid darkgrey;
+  padding: 11px;
+  margin: 10px;
+  flex: 1;
+}
+.item img {
+  max-width: 75px;
+}
+.form-container {
+  border-radius:5px;
+  border: 1px solid darkgrey;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.input-group.row {
+  flex-direction: row;
+}
+.input-group input {
+  padding: 5px 10px;
+}
+footer {
+  background:black;
+  color:white;
+  text-align: center;
+  padding: 22px;
+}
+p {
+  color: red;
+}
