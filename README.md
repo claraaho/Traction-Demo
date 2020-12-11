@@ -1,3 +1,3 @@
 # ToD Web Dev Demo - Starter Page
 
-Clone this page and use it to build out something amazing!
+Demo landing page for City Cycle - Ebike company.
