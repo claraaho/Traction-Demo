@@ -1,0 +1,54 @@
+h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+  color: $font-primaryColor;
+}
+
+h1 {
+  font-size: 37px;
+  @include nunito-bold;
+  color: $font-primaryColor;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 32px;
+  @include nunito-bold;
+  color: $primary-color;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 19px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p, ul {
+  @include raleway-bold;
+  color: $font-primaryColor;
+  font-size: 19px;
+}
+
+ul {
+  margin-left: 3rem;
+  line-height: 1.5;
+  li::before {
+  content: "\2022";
+  color: $accent-color;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em;
+  }
+}
