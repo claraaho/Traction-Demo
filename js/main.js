@@ -2,21 +2,21 @@ $(function () {
 
   console.log('hi');
 
-  $('#submit').on('click', function(event) {
-		event.preventDefault();
-		var userEmail = $('#email').val();
-		if (userEmail != '') {
-			var valid = validateEmail(userEmail);
-			if (valid) {
-        $('form').prepend('Thank you for submitting')
-        event.returnValue = true;
-			} else {
-        $('form').prepend('Please submit a valid email address.')
-		  }
-		} else {
-      $('form').prepend('Please submit an email address.')
-	  }	
-	})
+  // $('#submit').on('click', function(event) {
+	// 	event.preventDefault();
+	// 	var userEmail = $('#email').val();
+	// 	if (userEmail != '') {
+	// 		var valid = validateEmail(userEmail);
+	// 		if (valid) {
+  //       $('form').prepend('Thank you for submitting')
+  //       event.returnValue = true;
+	// 		} else {
+  //       $('form').prepend('Please submit a valid email address.')
+	// 	  }
+	// 	} else {
+  //     $('form').prepend('Please submit an email address.')
+	//   }	
+	// })
 
   //Email validation
   function validateEmail(email) {
