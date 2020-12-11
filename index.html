@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-			<meta charset="utf-8">
+			<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title>City Bikes E-Bike Sale on Now</title>
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -93,23 +93,30 @@
 				<div class="form-container">
 					<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 						<input type=hidden name="oid" value="00D4x000002zjTu">
-						<input type=hidden name="retURL" value="http://city-cycle.com">
+						<input type=hidden name="retURL" value="http://citycycle.litlashlife.com">
 						<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 						<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-						<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+						<label for="email">Email</label><input  id="email" heading="email" maxlength="80" name="email" size="20" type="text" /><br>
 						<label for="country">Country</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
-						Product Interest:<select  id="00N4x000009o6On" name="00N4x000009o6On" title="Product Interest"><option value="">--None--</option><option value="GC1000 series">GC1000 series</option>
-						<option value="GC5000 series">GC5000 series</option>
-						<option value="GC3000 series">GC3000 series</option>
+						Product Interest:<select  id="00N4x000009o6On" name="00N4x000009o6On" title="Product Interest"><option value="">--None--</option><option value="Crosslite DX 300">Crosslite DX 300</option>
+						<option value="Crosslite EVO 9D">Crosslite EVO 9D</option>
+						<option value="Bullseye EVO 2020">Bullseye EVO 2020</option>
+						<option value="Bullseye Touring Hybrid 8D">Bullseye Touring Hybrid 8D</option>
+						<option value="Gazelle 4D">Gazelle 4D</option>
+						<option value="Gazelle Touring 6D">Gazelle Touring 6D</option>
 						</select><br>
-						<label for="emailOptOut">Email Opt Out</label><input  id="emailOptOut" name="emailOptOut" type="checkbox" value="1" /><br>
-						<input type="submit" name="submit">
+						<div class="form-checkbox">
+							<input  id="00N4x000007VGLg" name="00N4x000007VGLg" type="checkbox" value="1" /><label for="00N4x000007VGLg">Email consent opt in</label>
+						</div>
+						<input type="submit" name="submit" id="submit">
 					</form>
 				</div>
 			</div>
 		</section>
     <footer>
       <p>&copy; 2020 City Cycles | Website by Clara Ho</p>
-    </footer>
+		</footer>
+		<script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

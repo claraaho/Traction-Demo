@@ -380,6 +380,21 @@ section.main-section {
   padding: 5px 10px;
 }
 
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  input {
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+  label {
+    margin-bottom: 0;
+  }
+}
+
 footer {
   text-align: center;
   padding: 22px;
