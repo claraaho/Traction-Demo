@@ -8,7 +8,8 @@ $(function () {
 		if (userEmail != '') {
 			var valid = validateEmail(userEmail);
 			if (valid) {
-				$('form').prepend('Thank you for submitting')
+        $('form').prepend('Thank you for submitting')
+        event.returnValue = true;
 			} else {
         $('form').prepend('Please submit a valid email address.')
 		  }
